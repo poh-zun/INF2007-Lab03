@@ -47,7 +47,7 @@ fun StartScreen(
                 isButtonEnabled = it.isNotBlank()
             },
             label = {Text("Enter name...")},
-            modifier = modifier.padding(10.dp)
+            modifier = modifier.padding(1.dp)
         )
         Button(
             onClick = {
